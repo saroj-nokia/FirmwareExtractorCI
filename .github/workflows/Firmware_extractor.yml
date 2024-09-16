@@ -19,7 +19,7 @@ jobs:
 
     steps:
        - name: Checkouts
-         uses: actions/checkout@v2
+         uses: actions/checkout@v3
 
        - name: Clone Firmware Extractor
          run: |
@@ -39,7 +39,7 @@ jobs:
               ./extractor.sh FIRMWARE.tgz
 
        - name: Store extracted firmware
-         uses: actions/upload-artifact@v2
+         uses: actions/upload-artifact@v3
          with:
            name: FIRMWARE
            path: |
