@@ -15,7 +15,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-22.4
+    runs-on: ubuntu-latest
 
     steps:
        - name: Checkouts
