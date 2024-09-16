@@ -11,7 +11,7 @@ defaults:
     shell: bash
 
 env:
-  ROM_URL: http://otafsg-cost-az.coloros.com/OnePlus6T/OnePlus6TOxygen_41.Y.78_GLO_0780_2108052357/patch/amazone2/GLO/OnePlus6TOxygen/OnePlus6TOxygen_41.Y.78_GLO_0780_2108052357/OnePlus6TOxygen_41.Y.78_OTA_0780_all_2108052357_f629ef93.zip
+  ROM_URL: https://bn.d.miui.com/OS1.0.7.0.UNGMIXM/miui_SAPPHIREGlobal_OS1.0.7.0.UNGMIXM_7cd51f6289_14.0.zip
 
 jobs:
   build:
